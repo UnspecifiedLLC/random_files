@@ -2,6 +2,8 @@
 Random files to use for mock API calls
 Using the Raw url of the file will result in a 200 response code, and a response body of your formatted json.
 
+### NOTE: Github takes a few minutes to propagte changes.
+
 ### URL Example:
 `https://raw.githubusercontent.com/UnspecifiedLLC/random_files/[ BRANCH ]/[ FOLDER ]/[ FILENAME ]`
 
