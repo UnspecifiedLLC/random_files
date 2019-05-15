@@ -2,7 +2,7 @@
 
 ### list.txt
 
-https://github.com/UnspecifiedLLC/random_files/blob/master/info-radiator/list.txt
+https://raw.githubusercontent.com/UnspecifiedLLC/random_files/master/info-radiator/list.txt
 
 Requirements:
     Place each entry on a new line, separating duration from path with a space.
