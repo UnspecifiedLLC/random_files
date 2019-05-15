@@ -1,4 +1,4 @@
-# Info Radiator Site List
+# Info Radiator
 
 ### list.txt
 
