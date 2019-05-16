@@ -24,3 +24,7 @@ Uses `chromium-browser` in `kiosk` mode.
 
 For LXDE, We saved Raditor.sh as `/bin/Radiator` and made it executable `sudo chmod a+x /bin/Radiator`.
 Then we used `sudo nano /etc/xdg/lxsession/LXDE-pi/autostart` to add `@Radiator` at the end.
+
+### Closing the Radiator
+
+To close the chromium-browser kiosk, use `ctrl + F4` then open a terminal and enter `pkill Radiator`, otherwise the Script will continue running and will re-open Chromium in Kiosk mode at the end of the timeout.
