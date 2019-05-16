@@ -8,7 +8,7 @@ Start_Loop () {
         if [ "$ENTRY" != 'Duration (Minutes) Path/URL' ]; then
             ENTRY=(${ENTRY})
             echo -e "Starting Chromium at ${ENTRY[1]}";
-            chromium-browser --disable-infobars --disable-session-crashed-bubble --kiosk ${ENTRY[1]} &>/dev/null &
+            chromium-browser --disable-infobars --disable-session-crashed-bubble --kiosk --app=${ENTRY[1]} &>/dev/null &
             disown
             echo -e "Waiting for ${ENTRY[0]} minutes.\n\n";
             sleep $(Minutes ${ENTRY[0]})
